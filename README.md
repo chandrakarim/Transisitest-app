@@ -1,5 +1,6 @@
 
-![Beranda](images/1.%20Beranda.png)
+![Beranda](https://raw.githubusercontent.com/chandrakarim/Transisitest-app/main/1.%20Beranda.png)
+
 
 
 
