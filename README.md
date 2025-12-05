@@ -1,5 +1,5 @@
 
-![Logo](C:\laragon\www\transisitest-app)
+![Logo](1. Beranda.png)
 
 
 # Aplikasi Manajemen Karyawan dan Perusahaan
