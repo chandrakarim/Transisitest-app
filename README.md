@@ -1,5 +1,6 @@
 
-![Logo](1. Beranda.png)
+![Beranda](images/1.%20Beranda.png)
+
 
 
 # Aplikasi Manajemen Karyawan dan Perusahaan
