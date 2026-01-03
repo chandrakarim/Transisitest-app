@@ -121,4 +121,32 @@ class CompanyController extends Controller
         // Unduh PDF
         return $pdf->download('employees_for_' . $company->name . '.pdf');
     }
+
+    public function select2(Request $request)
+    {
+        $page = $request->page ?? 1;
+        $length = 5;
+
+        $query = Company::query();
+
+        if ($request->filled('search')) {
+            $query->where('name', 'LIKE', '%' . $request->search . '%');
+        }
+
+        $results = $query->paginate($length, ['*'], 'page', $page);
+
+        return response()->json([
+            'data' => $results->items(),
+            'pagination' => [
+                'more' => $results->hasMorePages()
+            ]
+        ]);
+    }
+
+
+    public function find(Request $request)
+    {
+        $company = Company::findOrFail($request->id);
+        return response()->json($company);
+    }
 }

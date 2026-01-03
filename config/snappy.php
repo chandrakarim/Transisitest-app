@@ -3,7 +3,7 @@
 return [
     'pdf' => [
         'enabled' => true,
-        'binary'  => env('WKHTMLTOPDF_BINARY', '"C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe"'),
+       'binary' => '"C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe"',
         'timeout' => false,
         'options' => [],
         'env'     => [],
@@ -11,7 +11,7 @@ return [
 
     'image' => [
         'enabled' => true,
-        'binary'  => '"C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltoimage.exe"', // Gunakan tanda kutip ganda
+        'binary' => '"C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe"',
         'timeout' => false,
         'options' => [],
         'env'     => [],

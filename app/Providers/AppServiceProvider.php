@@ -7,6 +7,8 @@ use App\Repositories\CompanyRepositoryInterface;
 use App\Repositories\CompanyRepository;
 use App\Repositories\EmployeeRepositoryInterface;
 use App\Repositories\EmployeeRepository;
+use Illuminate\Pagination\Paginator;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -28,5 +30,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
+         Paginator::useBootstrapFive();
     }
 }

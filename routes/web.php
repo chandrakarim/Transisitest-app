@@ -34,6 +34,11 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('companies/index', [CompanyController::class, 'index'])->name('companies.index'); // Halaman daftar perusahaan
     Route::get('companies/create', [CompanyController::class, 'create'])->name('companies.create'); // Halaman tambah perusahaan
     Route::post('companies', [CompanyController::class, 'store'])->name('companies.store'); // Proses menyimpan perusahaan
+    Route::get('/companies/select2', [CompanyController::class, 'select2'])
+        ->name('companies.select2');
+    Route::get('/companies/find', [CompanyController::class, 'find'])
+        ->name('companies.find');
+
     Route::get('companies/{company}/edit', [CompanyController::class, 'edit'])->name('companies.edit'); // Halaman edit perusahaan
     Route::put('companies/{company}', [CompanyController::class, 'update'])->name('companies.update'); // Proses update perusahaan
     Route::delete('companies/{company}', [CompanyController::class, 'destroy'])->name('companies.destroy'); // Proses hapus perusahaan
