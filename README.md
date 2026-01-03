@@ -1,5 +1,7 @@
 
-![Logo](C:\laragon\www\transisitest-app)
+![Beranda](https://raw.githubusercontent.com/chandrakarim/Transisitest-app/main/1.%20Beranda.png)
+
+
 
 
 # Aplikasi Manajemen Karyawan dan Perusahaan
@@ -34,7 +36,7 @@ Ikuti langkah-langkah berikut untuk menginstal aplikasi ini:
 Clone proyek ini ke komputer lokal Anda dengan perintah berikut:
 
 ```bash
-git clone https://github.com/username/project-name.git
+git clone https://github.com/chandrakarim/Transisitest-app.git
 ```
 ### 2. Install Dependencies
 Setelah meng-clone repository, masuk ke folder proyek dan jalankan perintah berikut untuk menginstal dependensi yang dibutuhkan oleh Laravel:
