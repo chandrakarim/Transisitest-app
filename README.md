@@ -1,7 +1,7 @@
 
 ![Beranda](https://raw.githubusercontent.com/chandrakarim/Transisitest-app/main/1.%20Beranda.png)
 
-![Beranda](https://github.com/chandrakarim/Transisitest-app/blob/main/2.%20Data%20Karyawan.png)
+![Beranda](https://github.com/chandrakarim/Transisitest-app/blob/main/3.%20Data%20Perusahaan.png)
 
 
 
