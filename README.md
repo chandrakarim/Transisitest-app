@@ -45,7 +45,7 @@ Setelah meng-clone repository, masuk ke folder proyek dan jalankan perintah beri
 
 ```bash
 Copy code
-cd project-name
+cd Transisitest-app
 composer install
 ```
 ### 3. Konfigurasi .env
@@ -94,7 +94,7 @@ Di file .env, pastikan Anda mengatur path ke file wkhtmltopdf.exe:
 
 .env Copy code
 ```bash
-WKHTMLTOPDF_BINARY="C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
+WKHTMLTOPDF_BINARY="C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe"
 ```
 ### 8. Jalankan Aplikasi
 Sekarang, jalankan aplikasi menggunakan perintah berikut:
@@ -103,6 +103,7 @@ Sekarang, jalankan aplikasi menggunakan perintah berikut:
 Copy code
 php artisan serve
 Aplikasi akan berjalan di http://localhost:8000.
+npm run dev
 ```
 ## Fitur Aplikasi
 ### 1. Autentikasi Admin
